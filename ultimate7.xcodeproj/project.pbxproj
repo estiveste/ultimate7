@@ -14,6 +14,8 @@
 		82388E901E1C6A0600EEEE6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82388E8E1E1C6A0600EEEE6B /* LaunchScreen.storyboard */; };
 		82388E9B1E1C6A0600EEEE6B /* ultimate7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82388E9A1E1C6A0600EEEE6B /* ultimate7Tests.swift */; };
 		82388EA61E1C6A0600EEEE6B /* ultimate7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82388EA51E1C6A0600EEEE6B /* ultimate7UITests.swift */; };
+		82388EB51E1C73CA00EEEE6B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 82388EB41E1C73CA00EEEE6B /* logo.png */; };
+		82388EB81E1C757B00EEEE6B /* jumping_jacks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82388EB71E1C757B00EEEE6B /* jumping_jacks.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		82388EA11E1C6A0600EEEE6B /* ultimate7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ultimate7UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82388EA51E1C6A0600EEEE6B /* ultimate7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ultimate7UITests.swift; sourceTree = "<group>"; };
 		82388EA71E1C6A0600EEEE6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82388EB41E1C73CA00EEEE6B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		82388EB71E1C757B00EEEE6B /* jumping_jacks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jumping_jacks.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		82388E791E1C6A0600EEEE6B = {
 			isa = PBXGroup;
 			children = (
+				82388EB31E1C729500EEEE6B /* images */,
 				82388E841E1C6A0600EEEE6B /* ultimate7 */,
 				82388E991E1C6A0600EEEE6B /* ultimate7Tests */,
 				82388EA41E1C6A0600EEEE6B /* ultimate7UITests */,
@@ -123,6 +128,23 @@
 				82388EA71E1C6A0600EEEE6B /* Info.plist */,
 			);
 			path = ultimate7UITests;
+			sourceTree = "<group>";
+		};
+		82388EB31E1C729500EEEE6B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				82388EB61E1C756D00EEEE6B /* exercises */,
+				82388EB41E1C73CA00EEEE6B /* logo.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		82388EB61E1C756D00EEEE6B /* exercises */ = {
+			isa = PBXGroup;
+			children = (
+				82388EB71E1C757B00EEEE6B /* jumping_jacks.jpg */,
+			);
+			name = exercises;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82388EB51E1C73CA00EEEE6B /* logo.png in Resources */,
 				82388E901E1C6A0600EEEE6B /* LaunchScreen.storyboard in Resources */,
 				82388E8D1E1C6A0600EEEE6B /* Assets.xcassets in Resources */,
 				82388E8B1E1C6A0600EEEE6B /* Main.storyboard in Resources */,
+				82388EB81E1C757B00EEEE6B /* jumping_jacks.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
